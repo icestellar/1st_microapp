@@ -1,0 +1,17 @@
+Unicorn Rap’s
+
+ESP32 integrates Bluetooth link controller and Bluetooth baseband, which carry out the baseband protocols and other low-level link routines, such as modulation/demodulation, packets processing, bit stream processing, frequency hopping, etc.
+*Provides UART HCI interface, up to 4 Mbps
+*Provides SDIO / SPI HCI interface
+*Provides I2C interface for the host to do configuration
+*Provides PCM / I2S audio interface
+
+*Universal Asynchronous Receiver Transmitter (UART)*
+ESP32 has three UART interfaces, i.e. UART0, UART1 and UART2, which provide asynchronous communication
+(RS232 and RS485) and IrDA support, and communicate at up to 5 Mbps. UART provides hardware management
+of the CTS and RTS signals and software flow control (XON and XOFF). All of the interfaces can be accessed by
+the DMA controller or directly by CPU.
+
+(UART)
+A universal asynchronous receiver-transmitter (UART /ˈjuːɑːrt/) is a computer hardware device for asynchronous serial communication in which the data format and transmission speeds are configurable. The electric signaling levels and methods are handled by a driver circuit external to the UART. A UART is usually an individual (or part of an) integrated circuit (IC) used for serial communications over a computer or peripheral device serial port. One or more UART peripherals are commonly integrated in microcontroller chips. A related device, the universal synchronous and asynchronous receiver-transmitter (USART) also supports synchronous operation.
+The universal asynchronous receiver-transmitter (UART) takes bytes of data and transmits the individual bits in a sequential fashion.[1] At the destination, a second UART re-assembles the bits into complete bytes. Each UART contains a shift register, which is the fundamental method of conversion between serial and parallel forms. Serial transmission of digital information (bits) through a single wire or other medium is less costly than parallel transmission through multiple wires.
